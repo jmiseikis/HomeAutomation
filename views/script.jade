@@ -1,0 +1,13 @@
+script.
+  var myApp = angular.module('myApp',[]);
+  var socket = io.connect('http://localhost:3000');
+ 
+  socket.on('Light Status', function(IMUmsg){
+    orientation = IMUmsg.orientation;
+    gyroscope = IMUmsg.gyroscope;
+    accelerometer = IMUmsg.accelerometer;
+  });
+
+  function sendZero(){
+    socket.emit('Zero orientation');
+  }

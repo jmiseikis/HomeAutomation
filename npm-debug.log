@@ -1,0 +1,141 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'node-hue-api' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'node-hue-api', null ]
+6 verbose cache add name=undefined spec="node-hue-api" args=["node-hue-api",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'node-hue-api',
+7 verbose parsed url   path: 'node-hue-api',
+7 verbose parsed url   href: 'node-hue-api' }
+8 silly lockFile 6eeb0941-node-hue-api node-hue-api
+9 verbose lock node-hue-api /Users/justinasmiseikis/.npm/6eeb0941-node-hue-api.lock
+10 silly lockFile 6eeb0941-node-hue-api node-hue-api
+11 silly lockFile 6eeb0941-node-hue-api node-hue-api
+12 verbose addNamed [ 'node-hue-api', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 62c41ff2-node-hue-api node-hue-api@
+15 verbose lock node-hue-api@ /Users/justinasmiseikis/.npm/62c41ff2-node-hue-api.lock
+16 silly addNameRange { name: 'node-hue-api', range: '*', hasData: false }
+17 verbose request where is /node-hue-api
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id c218cf4b1f36ead4
+20 verbose url raw /node-hue-api
+21 verbose url resolving [ 'https://registry.npmjs.org/', './node-hue-api' ]
+22 verbose url resolved https://registry.npmjs.org/node-hue-api
+23 verbose request where is https://registry.npmjs.org/node-hue-api
+24 info trying registry request attempt 1 at 20:18:27
+25 verbose etag "6XBEGZFK3LU2K0L7FOOTLLMR8"
+26 http GET https://registry.npmjs.org/node-hue-api
+27 http 304 https://registry.npmjs.org/node-hue-api
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Sun, 01 Feb 2015 19:18:27 GMT',
+28 silly registry.get     server: 'Apache',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'last-modified': 'Sun, 01 Feb 2015 19:18:28 GMT',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"6XBEGZFK3LU2K0L7FOOTLLMR8"',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1422818307.964319,VS0,VE387',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'content-length': '0',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 verbose etag https://registry.npmjs.org/node-hue-api from cache
+30 silly addNameRange number 2 { name: 'node-hue-api', range: '*', hasData: true }
+31 silly addNameRange versions [ 'node-hue-api',
+31 silly addNameRange   [ '0.1.0',
+31 silly addNameRange     '0.1.1',
+31 silly addNameRange     '0.1.2',
+31 silly addNameRange     '0.1.3',
+31 silly addNameRange     '0.1.4',
+31 silly addNameRange     '0.2.0',
+31 silly addNameRange     '0.2.1',
+31 silly addNameRange     '0.2.2',
+31 silly addNameRange     '0.2.3',
+31 silly addNameRange     '0.2.4',
+31 silly addNameRange     '0.2.5',
+31 silly addNameRange     '0.2.6',
+31 silly addNameRange     '0.2.7',
+31 silly addNameRange     '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.0.2' ] ]
+32 verbose addNamed [ 'node-hue-api', '1.0.2' ]
+33 verbose addNamed [ '1.0.2', '1.0.2' ]
+34 silly lockFile e530481d-node-hue-api-1-0-2 node-hue-api@1.0.2
+35 verbose lock node-hue-api@1.0.2 /Users/justinasmiseikis/.npm/e530481d-node-hue-api-1-0-2.lock
+36 silly lockFile e530481d-node-hue-api-1-0-2 node-hue-api@1.0.2
+37 silly lockFile e530481d-node-hue-api-1-0-2 node-hue-api@1.0.2
+38 silly lockFile 62c41ff2-node-hue-api node-hue-api@
+39 silly lockFile 62c41ff2-node-hue-api node-hue-api@
+40 silly resolved [ { name: 'node-hue-api',
+40 silly resolved     version: '1.0.2',
+40 silly resolved     author: { name: 'Peter Murray', email: 'peter.murray@osirisoft.com' },
+40 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+40 silly resolved     main: 'index.js',
+40 silly resolved     scripts: { test: 'make test' },
+40 silly resolved     repository:
+40 silly resolved      { type: 'git',
+40 silly resolved        url: 'https://github.com/peter-murray/node-hue-api' },
+40 silly resolved     bugs: { url: 'https://github.com/peter-murray/node-hue-api/issues' },
+40 silly resolved     dependencies:
+40 silly resolved      { xml2js: '~0.2.2',
+40 silly resolved        q: '~1.0.0',
+40 silly resolved        'request-util': '~0.1.0',
+40 silly resolved        parseUri: '~1.2.3-2',
+40 silly resolved        traits: '~0.4.0' },
+40 silly resolved     devDependencies: { mocha: '~1.20.1', chai: '~1.9.1' },
+40 silly resolved     engines: { nodejs: '>= 0.8.0' },
+40 silly resolved     licenses: [ [Object] ],
+40 silly resolved     keywords:
+40 silly resolved      [ 'philips',
+40 silly resolved        'hue',
+40 silly resolved        'api',
+40 silly resolved        'living',
+40 silly resolved        'color',
+40 silly resolved        'colour',
+40 silly resolved        'automation',
+40 silly resolved        'light',
+40 silly resolved        'lighting',
+40 silly resolved        'bridge' ],
+40 silly resolved     gitHead: 'fc2fae53f70497cdd04c7058c150c61f2c759869',
+40 silly resolved     description: 'An API library for Node.js that interacts with the Philips Hue Bridge to control Philips Hue Light Bulbs and Philips Living Color Lamps.',
+40 silly resolved     homepage: 'https://github.com/peter-murray/node-hue-api',
+40 silly resolved     _id: 'node-hue-api@1.0.2',
+40 silly resolved     _shasum: '5e945fcf5b76f5fe3fa48cf022f44f1594d40357',
+40 silly resolved     _from: 'node-hue-api@',
+40 silly resolved     _npmVersion: '1.4.28',
+40 silly resolved     _npmUser: { name: 'peter-murray', email: 'pmurray@osirisoft.com' },
+40 silly resolved     maintainers: [ [Object] ],
+40 silly resolved     dist:
+40 silly resolved      { shasum: '5e945fcf5b76f5fe3fa48cf022f44f1594d40357',
+40 silly resolved        tarball: 'http://registry.npmjs.org/node-hue-api/-/node-hue-api-1.0.2.tgz' },
+40 silly resolved     directories: {},
+40 silly resolved     _resolved: 'https://registry.npmjs.org/node-hue-api/-/node-hue-api-1.0.2.tgz',
+40 silly resolved     readme: 'ERROR: No README data found!' } ]
+41 info install node-hue-api@1.0.2 into /Users/justinasmiseikis/Projects/HomeAutomation
+42 info installOne node-hue-api@1.0.2
+43 error git Appears to be a git repo or submodule.
+43 error git     /Users/justinasmiseikis/Projects/HomeAutomation/node_modules/node-hue-api
+43 error git Refusing to remove it. Update manually,
+43 error git or move it out of the way first.
+44 error System Darwin 14.1.0
+45 error command "node" "/usr/local/bin/npm" "install" "node-hue-api"
+46 error cwd /Users/justinasmiseikis/Projects/HomeAutomation
+47 error node -v v0.10.33
+48 error npm -v 1.4.28
+49 error path /Users/justinasmiseikis/Projects/HomeAutomation/node_modules/node-hue-api
+50 error code EISGIT
+51 verbose exit [ 1, true ]
