@@ -1,0 +1,28 @@
+{
+  "name": "HomeAutomation",
+  "version": "1.0.0",
+  "description": "Interface to control home appliances",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmiseikis/HomeAutomation.git"
+  },
+  "keywords": [
+    "Philips",
+    "Hue",
+    "NodeJS",
+    "websockets",
+    "Home",
+    "Automation",
+    "Chromecast"
+  ],
+  "author": "Justinas Miseikis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmiseikis/HomeAutomation/issues"
+  },
+  "homepage": "https://github.com/jmiseikis/HomeAutomation"
+}
